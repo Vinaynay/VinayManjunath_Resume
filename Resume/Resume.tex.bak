@@ -1,0 +1,164 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Vinay}{Manjunath}
+\title{Resumé}                               % optional, remove / comment the line if not wanted
+\address{Saphtagiri Encalave \\ Jayanagar 7th Block \\,}{ 560082 Banglore}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91 8095135289}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{vinaynaymanjunath@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{Cool}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Career Objective}
+\cvitem{}{\textbf{I am looking for a competitive environment, in order to enhance my technical skills as well as contribute to the society with technological advancements.}}
+
+\section{Education}
+\cventry{2014-Present}{B.Tech, Electronics and Communication} {PES University}{}{\textit{CGPA - 7.78}} {}
+\cventry{2013-2014}{Twelfth Standard}{Jain College V.V Puram                 						}{}{\textit{84.9 Percent}}{}
+\cventry{2011-2012}{Tenth Standard}{Rancho Bernardo High School 						}{}{\textit{84 Percent}}{}
+
+
+\section{Projects}
+\cvitem{1.}{\textbf{Waste Disposal Robot}}
+		\begin{itemize}
+					\item[] \hspace{1in} E-Yantra Robotics 2016
+		\end{itemize}    
+\cvitem{2.}{\textbf{Explorer Robot}}
+		\begin{itemize}
+					\item[] \hspace{1in} E-Yantra Robotics 2017
+		\end{itemize}    		     
+\cvitem{3.}{\textbf{Pareto Optimization of Characteristics of Digital Devices}}
+		\begin{itemize}
+					\item[] \hspace{1in} Selecting an optimum digital device based on a given specification
+		\end{itemize} 
+\cvitem{4.}{\textbf{Implementation of Hughes Scheduling}}
+		\begin{itemize}
+					\item[] \hspace{1in} Implementing of Hughes Scheduling using Python
+		\end{itemize}   	      
+\cvitem{5.}{\textbf{Gender identification of a Voice}}
+		\begin{itemize}
+					\item[] \hspace{1in} Processing a speech signal and determining the gender of the speaker 
+		\end{itemize} 
+\cvitem{6.}{\textbf{Adaptive Object Launcher}}
+		\begin{itemize}
+					\item[] \hspace{1in} A adaptive launcher that adjusts the angle of trajectory based on distance
+		\end{itemize} 
+		
+\section{Training}
+\cvitem{1.}{\textbf{National Robotics Competition Workshop}}
+\cvitem{2.}{\textbf{Digital Image Processing Workshop}}
+
+
+\section{Technical Skills}
+\cvitemwithcomment{1.}{ \textbf{Matlab}}{Intermediate}
+\cvitemwithcomment{2.}{ \textbf{MultiSim}}{Intermediate}
+\cvitemwithcomment{3.}{ \textbf{MultiSim}}{Intermediate}
+\cvitemwithcomment{4.}{ \textbf{Verilog}}{Intermediate}
+\cvitemwithcomment{5.}{ \textbf{ROS}}{Intermediate}
+\cvitemwithcomment{6.}{ \textbf{Arduino IDE}}{Intermediate}
+\cvitemwithcomment{7.}{ \textbf{Raspberry PI}}{Intermediate}
+\section{Technical Skills Cont.}
+\cvitemwithcomment{8.}{ \textbf{Solid Edge}}{Intermediate}
+\cvitemwithcomment{9.}{ \textbf{AutoDesk Inventor: AutoCAD}}{Intermediate}
+\cvitemwithcomment{10.}{ \textbf{PowerPoint}}{Intermediate}
+\cvitemwithcomment{11.}{ \textbf{Excel}}{Intermediate}
+\cvitemwithcomment{12.}{ \textbf{C}}{Novice}
+\cvitemwithcomment{13.}{ \textbf{Python}}{Novice}
+\section{Soft Skills}
+\cvitem{1.}{\textbf{Self-Motivated}}
+\cvitem{2.}{\textbf{Adaptability}}
+\cvitem{3.}{\textbf{Time Management}}
+\cvitem{4.}{\textbf{Working Under Pressure}}
+\cvitem{5.}{\textbf{Creative Thinking}}
+\cvitem{6.}{\textbf{Retrospection}}
+\section{Extra Curricular Activities}
+\cvitem{1.}{\textbf{Volunteering}}
+	\begin{itemize}
+					\item[] \hspace{1in} Academic Support Volunteer at Make a Difference 
+		\end{itemize}
+\cvitem{2.}{\textbf{Debate}}
+\cvitem{3.}{\textbf{Tennis}}
+
+\section{Co-Curricular Activities}
+\cvitem{1.}{\textbf{National Robotics Competition}}
+\cvitem{2.}{\textbf{E-Yantra Robotics Competition}}
+\section{Personal Details}
+\cvitem{}{\textbf{Father's Name: Raju Manjunath}}
+\cvitem{}{\textbf{Mother's Name: Asha Raju}}
+\cvitem{}{\textbf{Sex : Male}}
+\cvitem{}{\textbf{Date of Birth : April 10 1996}}
+\cvitem{}{\textbf{Citizenship: American}}
+\cvitem{}{\textbf{Nationality: Indian}}
+\cvitem{}{\textbf{Marital Status: Not married }}
+\pagebreak
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn[0.5]{Mr. Rajasekar M.}{\begin{itemize}\item[] Associate Professor \item[] Email: rajasekarmohan@pes.edu 
+  \end{itemize}}
+   \cvcolumn[0.5]{Mrs. Jayashree}{\begin{itemize}\item[] Associate Professor \item[] Email: jayashreehv@pes.edu 
+  \end{itemize}}
+  
+
+  
+  \cvcolumn{}{}
+  \cvcolumn[]{}{}
+
+\end{cvcolumns}
+  
+  \section{Declaration}
+  \cvitem{}{\textbf{I hereby declare that the details furnished above are true and correct to the best of my knowledge
+and belief and I undertake to inform you of any changes therein, immediately. In case any of the above
+information is found to be false or untrue or misleading or misrepresenting, I am aware that I may be held liable
+for it.}} 
+ \section{Date}
+  \cvitem{}{\textbf{April 24 2017}}
+
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
